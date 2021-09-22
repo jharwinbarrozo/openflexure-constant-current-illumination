@@ -1,0 +1,20 @@
+multi:
+  ofm_cc_illumination_single:
+    bom: 1-click-bom.csv
+    eda:
+      type: kicad
+      pcb: ofm_cc_illumination.kicad_pcb
+      schematic: ofm_cc_illumination.sch
+    color: green
+    readme: README.md
+    site: https://openflexure.org
+    summary: Constant current illumination board for the Openflexure Microscope.
+  ofm_cc_illumination_panel:
+    bom: panel/1-click-bom.csv
+    eda:
+      type: kicad
+      pcb: panel/ofm_cc_illumination_panel.kicad_pcb
+    color: green
+    readme: README.md
+    site: https://openflexure.org
+    summary: Constant current illumination board for the Openflexure Microscope (panel).

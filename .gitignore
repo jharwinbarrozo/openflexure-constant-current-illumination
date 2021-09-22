@@ -1,0 +1,4 @@
+*.zip
+*.kicad_pcb-bak
+*.sch-bak
+panel/fab/gerber*
